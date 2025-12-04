@@ -1,0 +1,351 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://edu-team-ez5bihqm.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://edu-team-ez5bihqm.atlassian.net/issues/?jql=project+%3D+%22AH%22+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Displaying <strong>7</strong> issues at <strong>05/Dec/25 2:45 AM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow11046" rel="11046" data-issuekey="AH-7" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-7" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-7">AH-7</a>
+</td>
+                                            <td class="summary"><p>
+                Testing &amp; bug fixes
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:10 AM </td>
+                                            <td class="updated"> 05/Dec/25 2:33 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11045" rel="11045" data-issuekey="AH-6" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-6" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-6">AH-6</a>
+</td>
+                                            <td class="summary"><p>
+                Database setup
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:13 AM </td>
+                                            <td class="updated"> 28/Nov/25 6:43 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11044" rel="11044" data-issuekey="AH-5" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-5" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-5">AH-5</a>
+</td>
+                                            <td class="summary"><p>
+                Admin/User
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:14 AM </td>
+                                            <td class="updated"> 30/Nov/25 6:54 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11043" rel="11043" data-issuekey="AH-4" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-4" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-4">AH-4</a>
+</td>
+                                            <td class="summary"><p>
+                Search &amp; sort books
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:14 AM </td>
+                                            <td class="updated"> 02/Dec/25 4:13 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11042" rel="11042" data-issuekey="AH-3" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-3" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-3">AH-3</a>
+</td>
+                                            <td class="summary"><p>
+                Borrow &amp; return books
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:15 AM </td>
+                                            <td class="updated"> 05/Dec/25 2:33 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11041" rel="11041" data-issuekey="AH-2" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-2" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-2">AH-2</a>
+</td>
+                                            <td class="summary"><p>
+                Book management CRUD
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:16 AM </td>
+                                            <td class="updated"> 2/Dec/25 10:42 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11040" rel="11040" data-issuekey="AH-1" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AH-1" href="https://edu-team-ez5bihqm.atlassian.net/browse/AH-1">AH-1</a>
+</td>
+                                            <td class="summary"><p>
+                User registration &amp; login, 
+    </p>
+</td>
+                                            <td class="assignee">            Ahmad Al-Kafri
+    </td>
+                                            <td class="reporter">            Ahmad Al-Kafri
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 28/Nov/25 10:16 AM </td>
+                                            <td class="updated"> 29/Nov/25 10:14 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Generated at Thu Dec 04 23:45:58 UTC 2025 by Ahmad Al-Kafri using Jira 1001.0.0-SNAPSHOT#100290-rev:9c8abfa038f2d00b3b9889fb67a25b7d87a6edf4.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
